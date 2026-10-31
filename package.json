@@ -1,0 +1,45 @@
+{
+  "name": "holdspace",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "Hold Space in the DSH composer to dictate with the local SenseVoice model; inserts the transcript into the draft",
+  "license": "MIT",
+  "author": "glory-salted-fish",
+  "homepage": "https://github.com/glory-salted-fish/holdspace",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glory-salted-fish/holdspace.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "voice-input",
+    "speech-to-text",
+    "sensevoice",
+    "push-to-talk"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}

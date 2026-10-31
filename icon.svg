@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Hold-space voice input">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1d7fd7"/>
+  <rect x="26" y="12" width="12" height="26" rx="6" fill="#ffffff"/>
+  <path d="M20 30c0 6.6 5.4 12 12 12s12-5.4 12-12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 42v8" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M48 22c2.4 3 3.6 6.6 3.6 10.2" fill="none" stroke="#bfe0ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M16 22c-2.4 3-3.6 6.6-3.6 10.2" fill="none" stroke="#bfe0ff" stroke-width="3" stroke-linecap="round"/>
+</svg>

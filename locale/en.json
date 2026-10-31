@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Hold-Space Voice Input",
+    "description": "Hold Space in the composer to dictate; the transcript is inserted into the draft when you release."
+  }
+}
